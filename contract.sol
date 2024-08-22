@@ -9,6 +9,7 @@ contract SimpleOperations {
     ) public pure returns (uint256) {
         return (a + b) / 2;
     }
+
     function getBit(uint256 num, uint256 position) public pure returns (uint8) {
         require(position > 0);
         uint8 bit;
